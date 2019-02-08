@@ -5,11 +5,13 @@
     "serverless-offline": "^3.20.2"
   },
   "scripts": {
+    "deploy": "sls deploy -f hello",
     "dev": "sls offline start --port 4500",
     "test": "jest"
   },
   "devDependencies": {
     "jest": "^22.4.3",
+    "serverless": "^1.36.3",
     "supertest": "^3.0.0"
   }
 }
