@@ -6,10 +6,12 @@
   },
   "scripts": {
     "dev": "sls offline start --port 4500",
+    "deploy": "sls deploy",
     "test": "jest"
   },
   "devDependencies": {
     "jest": "^22.4.3",
+    "serverless": "^1.37.1",
     "supertest": "^3.0.0"
   }
 }
